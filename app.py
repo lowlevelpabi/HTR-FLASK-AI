@@ -985,12 +985,11 @@ def predict_hydration_goal():
 
         # --- 5. Model Prediction ---
         if model and scaler:
-            # Construct the 17-feature vector (UPDATED FOR V8)
             X = np.array([[
                 age, 
                 gender, 
                 weight,
-                humidity_scale,       # Feature 4: The new direct input
+                humidity_scale,
                 temperature, 
                 complication, 
                 is_indoors, 
