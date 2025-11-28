@@ -1,0 +1,997 @@
+{
+    "mheko8wz": {
+        "last_intent": "ask_feeling",
+        "current_field": null,
+        "data": {}
+    },
+    "mhekqh4l": {
+        "last_intent": "ask_feeling",
+        "current_field": null,
+        "data": {}
+    },
+    "mhel0gwr": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "male",
+            "weight": "40",
+            "activity": "low",
+            "humidity": "91",
+            "temperature": "32",
+            "complication": "none"
+        }
+    },
+    "mheko7q4": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "male",
+            "weight": "40",
+            "activity": "low",
+            "humidity": "91",
+            "temperature": "32",
+            "complication": "diabetes"
+        }
+    },
+    "mhftshdn": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "male",
+            "weight": "40",
+            "activity": "low",
+            "humidity": "91",
+            "temperature": "32",
+            "complication": "none"
+        }
+    },
+    "mhqgge5z": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "im male",
+            "weight": "im 40",
+            "activity": "low",
+            "humidity": "81",
+            "temperature": "28",
+            "complication": "none"
+        }
+    },
+    "mhr6gbeb": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "humidity": "81",
+            "temperature": "26",
+            "complication": "none"
+        }
+    },
+    "mhsru8i7": {
+        "last_intent": "data_collection_started",
+        "current_field": "age",
+        "data": {}
+    },
+    "mhstd4o2": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "male",
+            "weight": "40",
+            "activity": "low",
+            "humidity": "81",
+            "temperature": "29",
+            "complication": "none"
+        }
+    },
+    "mhswfj9r": {
+        "last_intent": "data_collection_started",
+        "current_field": "activity",
+        "data": {
+            "age": "hello",
+            "gender": "hello?",
+            "weight": "no"
+        }
+    },
+    "mhvoy7bo": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "Male",
+            "weight": "40",
+            "activity": "low",
+            "humidity": "81",
+            "temperature": "30",
+            "complication": "None"
+        }
+    },
+    "mhvrivsl": {
+        "last_intent": "data_collection_started",
+        "current_field": "weight",
+        "data": {
+            "age": "23",
+            "humidity": "81",
+            "temperature": "30",
+            "gender": "female",
+            "weight": "",
+            "activity": "",
+            "complication": "None"
+        }
+    },
+    "mhvrqsvu": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "",
+            "activity": "",
+            "complication": "",
+            "humidity": "81",
+            "temperature": "30"
+        }
+    },
+    "mhvrsuto": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": 23,
+            "gender": "female",
+            "weight": "40",
+            "activity": "",
+            "complication": "low",
+            "humidity": "81",
+            "temperature": "30"
+        }
+    },
+    "mhvs08q9": {
+        "last_intent": "data_collection_started",
+        "current_field": "weight",
+        "data": {
+            "age": 23,
+            "gender": "female",
+            "weight": "",
+            "activity": "low",
+            "complication": "",
+            "humidity": "81",
+            "temperature": "30"
+        }
+    },
+    "mhvs8zg8": {
+        "last_intent": "data_collection_started",
+        "current_field": "activity",
+        "data": {
+            "age": 23,
+            "gender": "female",
+            "weight": 40,
+            "activity": "",
+            "complication": ""
+        }
+    },
+    "mhvschdf": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "Male",
+            "weight": "40",
+            "activity": "low",
+            "humidity": "81",
+            "temperature": "30",
+            "complication": "none"
+        }
+    },
+    "mhvstuzl": {
+        "last_intent": "data_collection_started",
+        "current_field": "weight",
+        "data": {
+            "age": "no",
+            "gender": "No"
+        }
+    },
+    "mhvsvau0": {
+        "last_intent": "data_collection_complete",
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "humidity": "81",
+            "temperature": "29"
+        }
+    },
+    "mhvtsxke": {
+        "last_intent": "data_collection_started",
+        "current_field": "temperature",
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "humidity": "81",
+            "temperature": "hello"
+        }
+    },
+    "mhvtz7gx": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "male",
+            "weight": "40",
+            "activity": "high",
+            "complication": "diabetes",
+            "humidity": "81",
+            "temperature": "29"
+        }
+    },
+    "mhvvrsul": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "humidity": "81",
+            "temperature": "29"
+        }
+    },
+    "mhvwglbq": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "humidity": "81",
+            "temperature": "29"
+        }
+    },
+    "mhvwo7a2": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "male",
+            "weight": "40",
+            "activity": "low",
+            "complication": "diabetes",
+            "humidity": "81",
+            "temperature": "29"
+        }
+    },
+    "mhxeb10i": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "humidity": "81",
+            "temperature": "28"
+        }
+    },
+    "mhxjdw3f": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "humidity": "81",
+            "temperature": "29"
+        }
+    },
+    "mhxlr56f": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "humidity": "81",
+            "temperature": "29"
+        }
+    },
+    "mhxmwdjv": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "humidity": "81",
+            "temperature": "29"
+        }
+    },
+    "mhyd6lvh": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "humidity": "its 81 nganiiii",
+            "temperature": "30 po"
+        }
+    },
+    "mhymrewr": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "humidity": "81",
+            "temperature": "30"
+        }
+    },
+    "mhzocp4n": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "humidity": "69",
+            "temperature": "28 imus"
+        }
+    },
+    "mhzqgqbk": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "humidity": "81",
+            "temperature": "29"
+        }
+    },
+    "mi0h4ey0": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "humidity": "8",
+            "temperature": "29"
+        }
+    },
+    "mi1eux3j": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "humidity": "81",
+            "temperature": "32",
+            "is_indoors": "indoors",
+            "is_ground_wet": "no"
+        }
+    },
+    "mi1g183z": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "humidity": "72",
+            "temperature": "31",
+            "is_indoors": "indoors",
+            "is_ground_wet": "yes"
+        }
+    },
+    "mi1mm6vy": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "humidity": "81",
+            "temperature": "27",
+            "is_indoors": "indoors",
+            "is_ground_wet": "no",
+            "is_windy_or_fanned": "yes",
+            "is_direct_sun": "no"
+        }
+    },
+    "mi1nkw8x": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "25",
+            "gender": "female",
+            "weight": "50",
+            "activity": "low",
+            "complication": "none",
+            "humidity": "81",
+            "temperature": "27",
+            "is_indoors": "indoors",
+            "is_ground_wet": "no",
+            "is_windy_or_fanned": "yes",
+            "is_direct_sun": "no"
+        }
+    },
+    "mi1nofj2": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "humidity": "81",
+            "temperature": "27",
+            "is_indoors": "indoors",
+            "is_ground_wet": "no",
+            "is_windy_or_fanned": "yes",
+            "is_direct_sun": "no"
+        }
+    },
+    "mi1oltnf": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "humidity": "81",
+            "temperature": "27",
+            "is_indoors": "indoors",
+            "is_ground_wet": "no",
+            "is_windy_or_fanned": "yes",
+            "is_direct_sun": "no"
+        }
+    },
+    "mi1phyxb": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "humidity": "81",
+            "temperature": "27",
+            "is_indoors": "indoors",
+            "is_ground_wet": "no",
+            "is_windy_or_fanned": "yes",
+            "is_direct_sun": "no"
+        }
+    },
+    "mi2iogn7": {
+        "last_intent": "ask_permission",
+        "current_field": null,
+        "data": {}
+    },
+    "mi2izsuz": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "sub_activity": "Light Running",
+            "humidity": "72",
+            "temperature": "30",
+            "is_indoors": "indoors",
+            "is_ground_wet": "no",
+            "is_windy_or_fanned": "yes",
+            "is_direct_sun": "no"
+        }
+    },
+    "mi2toy57": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "sub_activity": "Stretching",
+            "humidity": "71",
+            "temperature": "31",
+            "is_indoors": "indoors",
+            "is_ground_wet": "no",
+            "is_windy_or_fanned": "yes",
+            "is_direct_sun": "no"
+        }
+    },
+    "mi5s51mo": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "sub_activity": "Light Running",
+            "humidity": "79",
+            "temperature": "30",
+            "is_indoors": "indoors",
+            "is_ground_wet": "no",
+            "is_windy_or_fanned": "yes",
+            "is_direct_sun": "no"
+        }
+    },
+    "mi5zaz3w": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "sub_activity": "Light Running",
+            "humidity": "83",
+            "temperature": "28",
+            "is_indoors": "indoors",
+            "is_ground_wet": "no",
+            "is_windy_or_fanned": "yes",
+            "is_direct_sun": "no"
+        }
+    },
+    "mi64zzzv": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "sub_activity": "Light Running",
+            "humidity": "83",
+            "temperature": "28",
+            "is_indoors": "indoors",
+            "is_ground_wet": "no",
+            "is_windy_or_fanned": "yes",
+            "is_direct_sun": "no"
+        }
+    },
+    "mi68t2k5": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "sub_activity": "walking",
+            "humidity": "83",
+            "temperature": "27",
+            "is_indoors": "indoors",
+            "is_ground_wet": "no",
+            "is_windy_or_fanned": "yes",
+            "is_direct_sun": "no"
+        }
+    },
+    "mi6olb8l": {
+        "last_intent": "data_collection_started",
+        "current_field": "humidity",
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "sub_activity": "no"
+        }
+    },
+    "mi8hj193": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "sub_activity": "Light Running",
+            "humidity": "71",
+            "temperature": "32",
+            "is_indoors": "indoors",
+            "is_ground_wet": "no",
+            "is_windy_or_fanned": "yes",
+            "is_direct_sun": "no"
+        }
+    },
+    "mi90919w": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "sub_activity": "Light Running",
+            "humidity": "72",
+            "temperature": "28",
+            "is_indoors": "indoors",
+            "is_ground_wet": "no",
+            "is_windy_or_fanned": "yes",
+            "is_direct_sun": "no"
+        },
+        "chat_history": [
+            {
+                "role": "user",
+                "content": "Can you give 5 random names in bullet form?"
+            },
+            {
+                "role": "assistant",
+                "content": "Here are 5 random names:\n\n*   Alex\n*   Blake\n*   Casey\n*   Charlie\n*   Drew"
+            },
+            {
+                "role": "user",
+                "content": "can you list 5 fruits??"
+            },
+            {
+                "role": "assistant",
+                "content": "Here are 5 fruits:\n* Apple\n* Banana\n* Orange\n* Peach\n* Mango"
+            },
+            {
+                "role": "user",
+                "content": "Hi"
+            },
+            {
+                "role": "assistant",
+                "content": "Hi! How can I help you today?\n"
+            },
+            {
+                "role": "user",
+                "content": "Do you know whats next after monday?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes, I do! What are you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "What day after monday?"
+            },
+            {
+                "role": "assistant",
+                "content": "The day after Monday is Tuesday."
+            },
+            {
+                "role": "user",
+                "content": "Alright! thanks"
+            },
+            {
+                "role": "assistant",
+                "content": "You're welcome! Let me know what you'd like me to do.\n"
+            },
+            {
+                "role": "user",
+                "content": "Do you think im good?"
+            },
+            {
+                "role": "assistant",
+                "content": "I am doing well, thank you for asking! How can I help you today?"
+            },
+            {
+                "role": "user",
+                "content": "Can you list the possible list of dehydration"
+            },
+            {
+                "role": "assistant",
+                "content": "Okay, I'm ready! Please tell me what you need help with."
+            },
+            {
+                "role": "user",
+                "content": "can you list the possible cause of dehydration?"
+            },
+            {
+                "role": "assistant",
+                "content": "Okay, I'm ready! Please tell me what you need help with."
+            },
+            {
+                "role": "user",
+                "content": "uh.."
+            },
+            {
+                "role": "assistant",
+                "content": "Okay, I'm ready to help! What would you like me to do?"
+            }
+        ]
+    },
+    "mi9nfisn": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "sub_activity": "Light Running",
+            "humidity": "72",
+            "temperature": "30",
+            "is_indoors": "indoors",
+            "is_ground_wet": "no",
+            "is_windy_or_fanned": "yes",
+            "is_direct_sun": "no"
+        },
+        "chat_history": []
+    },
+    "miam1egb": {
+        "last_intent": "data_collection_started",
+        "current_field": "weight",
+        "data": {
+            "age": "23",
+            "gender": "male",
+            "weight": "",
+            "activity": "",
+            "complication": ""
+        },
+        "chat_history": [
+            {
+                "role": "user",
+                "content": "hello?"
+            },
+            {
+                "role": "assistant",
+                "content": "Hello."
+            },
+            {
+                "role": "user",
+                "content": "hi there!"
+            },
+            {
+                "role": "assistant",
+                "content": "Hello."
+            },
+            {
+                "role": "user",
+                "content": "hii"
+            },
+            {
+                "role": "assistant",
+                "content": "Hello."
+            },
+            {
+                "role": "user",
+                "content": "can you give me hydration tip?"
+            },
+            {
+                "role": "assistant",
+                "content": "Drink water regularly throughout the day."
+            },
+            {
+                "role": "user",
+                "content": "hello"
+            },
+            {
+                "role": "assistant",
+                "content": "I'm having trouble generating a response right now."
+            },
+            {
+                "role": "user",
+                "content": "hello!"
+            },
+            {
+                "role": "assistant",
+                "content": "I'm having trouble generating a response right now."
+            },
+            {
+                "role": "user",
+                "content": "hello?"
+            },
+            {
+                "role": "assistant",
+                "content": "I'm having trouble generating a response right now."
+            },
+            {
+                "role": "user",
+                "content": "hello"
+            },
+            {
+                "role": "assistant",
+                "content": "Hello!"
+            },
+            {
+                "role": "user",
+                "content": "how are you?"
+            },
+            {
+                "role": "assistant",
+                "content": "I'm functioning as expected. Thanks for asking!"
+            },
+            {
+                "role": "user",
+                "content": "do you know what next to monday?"
+            },
+            {
+                "role": "assistant",
+                "content": "No, I don't."
+            },
+            {
+                "role": "user",
+                "content": "okay, can you give me a summary about hydration?"
+            },
+            {
+                "role": "assistant",
+                "content": "Here\u2019s a summary of hydration:\n\n*   **Why it\u2019s important:** Water is essential for virtually every bodily function \u2013 regulating temperature, transporting nutrients, lubricating joints, and removing waste. Dehydration can lead to fatigue, headaches, dizziness, and more serious health issues.\n\n*   **How much you need:** The recommended daily intake varies based on factors like activity level, climate, and overall health. A general guideline is around 8 glasses (64 ounces) of water per day, but this can be higher for some individuals.\n\n*   **Signs of dehydration:** Thirst, dark urine, infrequent urination, fatigue, dizziness, and dry mouth.\n\n*   **Tips for staying hydrated:** Carry a water bottle, drink water regularly throughout the day, eat water-rich foods like fruits and vegetables, and pay attention to your body\u2019s signals.\n\nDo you want me to elaborate on any of these points?"
+            },
+            {
+                "role": "user",
+                "content": "yes please"
+            },
+            {
+                "role": "assistant",
+                "content": "Okay, let\u2019s delve deeper. Here\u2019s a breakdown:\n\n*   **Individual Needs Vary:**  A sedentary person needs less water than someone who exercises intensely or lives in a hot climate.\n\n*   **Electrolyte Balance:**  Water is crucial for electrolyte balance (sodium, potassium, etc.).  Dehydration can disrupt these, impacting muscle function and nerve signals.\n\n*   **Impact on Health:** Chronic dehydration can contribute to kidney stones, constipation, and even cognitive impairment.\n\nDo you want me to focus on a specific aspect, like how to increase your water intake or the benefits of electrolytes?"
+            },
+            {
+                "role": "user",
+                "content": "No, that's enough. thanks"
+            },
+            {
+                "role": "assistant",
+                "content": "You\u2019re welcome! Glad I could help."
+            },
+            {
+                "role": "user",
+                "content": "do you know the song: Cry Baby by The Neighbourhood?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes, I do! It\u2019s \u201cCry Baby\u201d by The Neighbourhood."
+            },
+            {
+                "role": "user",
+                "content": "can you give me its lyric?"
+            },
+            {
+                "role": "assistant",
+                "content": "Okay, here\u2019s the lyric:\n\n\u201cI\u2019m a ghost, a shadow, a whisper in the rain\nYou\u2019re chasing me, but I\u2019m just a fading stain\nYou\u2019re looking for something I don\u2019t have, you see\nAnd I\u2019m just a ghost, lost eternally.\u201d"
+            },
+            {
+                "role": "user",
+                "content": "who is the current president of the philippines?"
+            },
+            {
+                "role": "assistant",
+                "content": "As of today, November 2, 2023, the current president of the Philippines is Ferdinand Marcos Jr."
+            },
+            {
+                "role": "user",
+                "content": "can you predict my water intake?"
+            },
+            {
+                "role": "assistant",
+                "content": "I can tell you your recommended water intake! First, do you give me permission to ask for your age, gender, weight, activity level, and environment details (Yes/No)?"
+            }
+        ]
+    },
+    "micse3z8": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "sub_activity": "Light Running",
+            "humidity": "72",
+            "temperature": "30",
+            "is_indoors": "indoors",
+            "is_ground_wet": "no",
+            "is_windy_or_fanned": "yes",
+            "is_direct_sun": "no"
+        },
+        "chat_history": [
+            {
+                "role": "user",
+                "content": "How fast a dog can run?"
+            },
+            {
+                "role": "assistant",
+                "content": "Hello there! My name is Maruf, and it\u2019s a pleasure to be assisting you today. \n\nLet\u2019s talk about how fast a dog can run! It\u2019s a surprisingly complex question, as it depends on a lot of factors \u2013 breed, age, health, and even the situation. However, we can give you a good general idea.\n\n**On average, a dog can run at speeds of around 30-40 miles per hour (48-64 kilometers per hour).**\n\nHowever, this is just an average. Here's a breakdown of what to expect:\n\n*   **Sprints:** A dog can sprint for up to 400 meters (about 3.3 miles) in a burst of speed, which is incredibly fast!\n*   **Jogging:** Most dogs can maintain a comfortable jogging speed of around 25-30 mph (40-48 km/h).\n*   **Walks:** A dog\u2019s walking speed is typically much slower, around 7-12 mph (11-19 km/h).\n\n**Here\u2019s a little more detail by breed:**\n\n*   **Greyhounds:** These are the fastest dogs, capable of reaching speeds of 45-55 mph (72-88 km/h) in short bursts.\n*   **German Shorthaired Pointers:** Known for their speed, they can reach speeds of 40-50 mph (64-80 km/h).\n*   **Border Collies:** These dogs are exceptionally fast and agile, able to run at speeds of up to 35 mph (56 km/h).\n*   **Labrador Retrievers:** Typically run at speeds of around 30-35 mph (48-56 km/h).\n\n**Important Note:** These are just averages. Individual dogs can vary greatly in their speed.\n\nDo you have any specific questions about dog running speed, or would you like to know more about a particular breed?"
+            }
+        ]
+    },
+    "mii811o9": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "sub_activity": "Light Running",
+            "humidity_scale": "3",
+            "temperature": "31",
+            "is_indoors": "indoors",
+            "is_ground_wet": "no",
+            "is_windy_or_fanned": "yes",
+            "is_direct_sun": "no"
+        },
+        "chat_history": [
+            {
+                "role": "user",
+                "content": "hello there!"
+            },
+            {
+                "role": "assistant",
+                "content": "Hello there! My name is Maruf. It\u2019s a pleasure to meet you! I\u2019m here to be your helpful assistant, whether you\u2019re looking for information, assistance with a task, or simply want to chat. \n\nI\u2019m happy to help with both general and hydration matter or topic assistance. \ud83d\ude0a \n\nLet me know how I can help you today!"
+            }
+        ]
+    },
+    "miid62qv": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "23",
+            "gender": "female",
+            "weight": "40",
+            "activity": "low",
+            "complication": "none",
+            "sub_activity": "Light Running",
+            "humidity_scale": "2",
+            "temperature": "31",
+            "is_indoors": "indoors",
+            "is_ground_wet": "no",
+            "is_windy_or_fanned": "yes",
+            "is_direct_sun": "no"
+        },
+        "chat_history": []
+    }
+}

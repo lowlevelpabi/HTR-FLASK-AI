@@ -1,0 +1,640 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good day", "greetings"],
+      "responses": [
+        "Hello! 🥰 I'm Maruf, your hydration assistant. How are you feeling today?",
+        "Hi there! My name is Maruf 😊, how is your hydration going? Do you feel great, thirsty, or maybe a bit dizzy?",
+        "Hey! Great to see you 🤩. I am your personal hydration assistant, Maruf. Tell me, how do you feel right now?"
+      ]
+    },
+    {
+      "tag": "ask_feeling",
+      "patterns": ["how are you feeling", "how are you", "how's it going"],
+      "responses": [
+        "I'm feeling great! 🫣 Just keeping everyone hydrated. How about you? Do you feel dizzy, thirsty, or fine?"
+      ]
+    },
+    {
+      "tag": "feeling_dizzy",
+      "patterns": ["dizzy", "lightheaded", "a little dizzy"],
+      "responses": [
+        "Dizziness can be a sign of low hydration. Please consider drinking some water right now 🙄."
+      ]
+    },
+    {
+      "tag": "feeling_thirsty",
+      "patterns": ["thirsty", "parched", "very thirsty"],
+      "responses": [
+        "Thirst is your body's signal for help! Grab a glass of water immediately. 🙄"
+      ]
+    },
+    {
+      "tag": "feeling_fine",
+      "patterns": ["fine", "okay", "good", "great"],
+      "responses": [
+        "That's wonderful to hear! 🤩 Staying hydrated is a great way to maintain that feeling."
+      ]
+    },
+    {
+      "tag": "confirmation",
+      "patterns": ["yes", "yeah", "yup", "ok", "sure"],
+      "responses": [
+        "Fantastic! 🙃 Let's get started and calculate your personalized hydration goal. ",
+        "Thats great! Calculating your hydration goal is our goal. 📉 "
+      ]
+    },
+    {
+      "tag": "denial",
+      "patterns": ["no", "nope", "not now", "i don't want to"],
+      "responses": [
+        "No problem! 😒 I respect your privacy. We can still chat about general hydration facts or tips anytime! 😇"
+      ]
+    },
+    {
+      "tag": "ask_age",
+      "patterns": [],
+      "responses": [
+        "Could you tell me your age (in years)? 🧓👦",
+        "What is your age in years? 📅",
+        "How old are you? ⏳",
+        "Please share your age so we can personalize your hydration advice 💧📝",
+        "Tell me your age — this helps me calculate your water intake accurately! 🌊",
+        "May I know your age? It’s important for your hydration recommendation 💦"
+      ]
+    },
+    {
+      "tag": "ask_gender",
+      "patterns": [],
+      "responses": [
+        "Thanks for sharing! 👍 Now, what’s your gender? (male/female) 🚹🚺",
+        "Appreciate your response. Next, can you tell me your gender please? 💧",
+        "Got it! May I know your gender — male or female? 🌊",
+        "Please let me know your gender so we can continue with your personalized intake 🌈💦",
+        "What gender should I consider for your hydration calculation? 🧍‍♂️🧍‍♀️"
+      ]
+    },
+    {
+      "tag": "ask_weight",
+      "patterns": [],
+      "responses": [
+        "Thank you! 👌 Now, please tell me your weight in kilograms.",
+        "Alright. How much do you weigh in kilograms?",
+        "Good. What's your current weight (in kg)?",
+        "Please provide your weight — it helps me calculate your ideal water intake.",
+        "Tell me your weight in kilograms for the hydration recommendation."
+      ]
+    },
+    {
+      "tag": "ask_activity",
+      "patterns": [],
+      "responses": [
+        "Perfect! How would you describe your daily activity level? Please choose: **Low** (mostly sedentary), **Medium** (moderate exercise), or **High** (intense exercise)?",
+        "Thanks! Now, can you tell me how active you are each day? (Low / Medium / High)",
+        "Almost done. What's your usual activity level? Low, Medium, or High?",
+        "How would you rate your daily activity? This affects your water needs. (Low / Medium / High)",
+        "Please share your activity level so I can personalize your hydration advice. (Low / Medium / High)"
+      ]
+    },
+    {
+      "tag": "ask_sub_activity",
+      "patterns": [],
+      "responses": [
+        "Which type of {activity} do you usually do? (e.g., Yoga/Stretching, Light Running)"
+      ]
+    },
+    {
+      "tag": "ask_humidity",
+      "patterns": [],
+      "responses": [
+        "Thanks! Please provide the **humidity level as a scale from 1 (very high humidity) to 5 (very low humidity)**.",
+        "Got it! What is the **humidity scale (1-5)** right now?",
+        "Please provide the current **humidity scale (1, 2, 3, 4, or 5)**—it influences your hydration needs.",
+        "Tell me the **humidity scale (1-5)** so I can adjust your recommended water intake accurately."
+      ]
+    },
+    {
+      "tag": "ask_is_indoors",
+      "patterns": [],
+      "responses": [
+        "Are you currently **indoors or outdoors**? 🏠 (Type 'indoors' or 'outdoors')",
+        "Next, are you doing your activities **indoors or outdoors**?",
+        "Please specify if your current environment is **indoors** or **outdoors**."
+      ]
+    },
+    {
+      "tag": "ask_is_ground_wet",
+      "patterns": [],
+      "responses": [
+        "Is the ground outside currently **wet or recently rained on**? 🌧️ (Type 'yes' or 'no')",
+        "One more environment question: Is the ground wet right now?",
+        "For accurate humidity context, please tell me: Is the ground wet?"
+      ]
+    },
+
+    {
+      "tag": "ask_is_windy_or_fanned",
+      "patterns": [],
+      "responses": [
+        "Is there a strong **wind, a fan, or a strong AC vent** blowing on you right now? (Type 'yes' or 'no')",
+        "Next, is your current location windy or are you under a fan/AC vent?",
+        "Please confirm if you are experiencing high air movement (wind/fan/AC). (Yes/No)"
+      ]
+    },
+    {
+      "tag": "ask_is_direct_sun",
+      "patterns": [],
+      "responses": [
+        "Are you currently exposed to **direct, strong sunlight** (not in the shade)? (Type 'yes' or 'no')",
+        "Final environment factor: Are you standing in direct sun right now?",
+        "For radiant heat adjustment, please tell me: Are you in the sun? (Yes/No)"
+      ]
+    },
+    {
+      "tag": "ask_temperature",
+      "patterns": [],
+      "responses": [
+        "Alright! What's the current temperature (°C) in your location?",
+        "Perfect! Now, may I know what is the current temperature in your location?"
+      ]
+    },
+    {
+      "tag": "ask_complication",
+      "patterns": [],
+      "responses": [
+        "Lastly, do you have any health complications that affect hydration? Please specify the condition (e.g., 'diabetes' or 'none')",
+        "Almost done... any medical issues affecting your hydration? Please state the condition or say 'none' ",
+        "Please indicate if you have any health conditions that influence water intake (e.g., 'kidney stones')",
+        "Are there any health factors I should consider for your hydration plan? You can name the condition or say 'none'",
+        "Tell me about any complications, this helps me give safer recommendations. State the condition or reply 'none'"
+      ]
+    },
+    {
+      "tag": "greet_response",
+      "patterns": [
+        "im ok",
+        "i'm ok",
+        "i am ok",
+        "i'm good",
+        "i am good",
+        "im fine",
+        "i'm fine",
+        "i am fine"
+      ],
+      "responses": [
+        "Glad to hear that! Remember to keep sipping water throughout the day 💧",
+        "That's great! Staying hydrated helps maintain that good feeling. 😊",
+        "Awesome! Keep up the good hydration habits! 👍",
+        "Wonderful! Drinking water regularly is key to feeling great. ✨",
+        "Fantastic! Keep listening to your body and stay hydrated. ✅"
+      ]
+    },
+    {
+      "tag": "response_loading",
+      "patterns": [],
+      "responses": [
+        "I'm analyzing the data you've provided and running the prediction model. Please wait just a moment...",
+        "Just a few seconds! Calculating your recommended water intake based on your input..."
+      ]
+    },
+    {
+      "tag": "fallback_generic",
+      "patterns": [],
+      "responses": [
+        "It seems that your prompt is outside of my scope, please do a query that covers only my knowledge - in hydration.",
+        "Hey there! Uhm, I don't know what do you mean by that prompt, please ask or say something about my scope only - in hydration."
+      ]
+    },
+    {
+      "tag": "fallback_hydration_tip",
+      "patterns": [],
+      "responses": [
+        "Water helps maintain your body's temperature and energy levels 💪. Always keep sipping!",
+        "Did you know? Staying hydrated improves focus and mood.",
+        "Hydration is key to healthy skin and better sleep 🌙. Try for 2-3 liters today!",
+        "Even mild dehydration can reduce your concentration — drink up!",
+        "A good hydration goal is 2-3 liters daily, adjusted by activity level."
+      ]
+    },
+    {
+      "tag": "fallback_permission_retry",
+      "patterns": [],
+      "responses": [
+        "Sorry, I need a simple 'Yes' or 'No' to proceed. Can I ask for additional information?",
+        "Please just confirm with a 'Yes' or 'No' so we can move forward with the calculation."
+      ]
+    },
+    {
+      "tag": "fallback_feeling_retry",
+      "patterns": [],
+      "responses": [
+        "I see. Could you tell me if you feel dizzy, thirsty, or just fine?",
+        "To help me guide you, please indicate if you are feeling 'dizzy,' 'thirsty,' or 'fine'."
+      ]
+    },
+    {
+      "tag": "fallback_data_collection_incomplete",
+      "patterns": [],
+      "responses": [
+        "Let's continue! Please provide your age, gender, weight, and activity level so I can calculate your intake properly 💧",
+        "To get your personalized result, I still need all four pieces of data. What's the next piece of information you can share?"
+      ]
+    },
+    {
+      "tag": "fallback_model_error",
+      "patterns": [],
+      "responses": [
+        "Oops! It seems there was an issue running the calculation. Could you try starting the data collection process again? Apologies for the glitch! 🤖"
+      ]
+    },
+    {
+      "tag": "chat_weather",
+      "patterns": [
+        "how's the weather",
+        "is it hot",
+        "is it raining",
+        "weather today"
+      ],
+      "responses": [
+        "I can't feel the weather, but I hope it's bright and refreshing where you are!",
+        "Sorry but I can't sense the current weather in your location, but I hope it's bright and refreshing now.",
+        "Hey there! Unfortunately, I can't sense the weather in your location. I lack with that feature at the moment..."
+      ]
+    },
+    {
+      "tag": "chat_name",
+      "patterns": ["what's your name", "who are you", "do you have a name"],
+      "responses": [
+        "I'm your personal recommendation chatbot, Maruf! your hydration and wellness companion!",
+        "My name's Maruf! I keep people refreshed, one sip at a time.",
+        "You can call me Maruf! I'm your friendly water advisor.",
+        "Maruf here! Always ready to keep you hydrated and healthy."
+      ]
+    },
+    {
+      "tag": "chat_joke",
+      "patterns": [
+        "tell me a joke",
+        "say something funny",
+        "make me laugh",
+        "i want to laugh",
+        "do you know any jokes",
+        "funny",
+        "haha",
+        "lol",
+        "lmao",
+        "that’s funny",
+        "you’re funny",
+        "make a joke",
+        "give me a funny one",
+        "can you tell me something funny",
+        "tell me a hydration joke",
+        "joke please",
+        "got any jokes",
+        "funny joke please",
+        "say a joke",
+        "make me smile"
+      ],
+      "responses": [
+        "Sure! Why did the water bottle go to therapy? It had too many *bottle*d-up feelings! 💧😂",
+        "Here’s one: I tried to catch some fog earlier... I mist! 🌫️😆",
+        "Hydration humor incoming! Why did the ocean break up with the river? Too much current drama! 🌊",
+        "Haha! You’re funny too! But okay—what do you call water that’s good at math? H₂-know! 🤓💦",
+        "Want a hydration tip *and* a joke? Drink water before your jokes—stay hydrated and punny!",
+        "Knock knock! 💧 Who’s there? Water. Water who? Water you doing without a drink? 😂",
+        "Why don’t scientists trust atoms? Because they make up everything! ⚛️😄",
+        "Sure thing! Did you hear about the thirsty robot? He had a *bit* too much to drink! 🤖🥤",
+        "Okay! How do you organize a space party? You planet! 🚀😆"
+      ]
+    },
+    {
+      "tag": "chat_thanks",
+      "patterns": ["thank you", "thanks", "appreciate it", "ty"],
+      "responses": [
+        "You're welcome! 💙 Stay hydrated and happy!",
+        "No problem 😊 Keep drinking water and take care!",
+        "Anytime! 💧 Your hydration is my mission!"
+      ]
+    },
+    {
+      "tag": "chat_goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "talk to you later",
+        "catch you later"
+      ],
+      "responses": [
+        "Goodbye! 👋 Don’t forget to drink your water today!",
+        "See you later! 💦 Stay refreshed and hydrated!",
+        "Bye-bye! 💧 Keep sipping throughout the day!"
+      ]
+    },
+    {
+      "tag": "chat_random",
+      "patterns": [
+        "i'm bored",
+        "im bored",
+        "tell me something",
+        "say something",
+        "i want to talk"
+      ],
+      "responses": [
+        "Bored, huh? Let’s talk hydration facts! 💧 Did you know 60% of your body is water?",
+        "Hmm, want to hear something random? Water can dissolve more substances than any other liquid!",
+        "We can talk about anything! Or… I can quiz you on hydration 😉"
+      ]
+    },
+    {
+      "tag": "chat_compliment",
+      "patterns": [
+        "you're smart",
+        "you're funny",
+        "you're cool",
+        "i like you",
+        "nice bot"
+      ],
+      "responses": [
+        "Aww, thanks! 💙 I like chatting with you too!",
+        "You’re awesome yourself! 😄 Hydration buddies forever 💧",
+        "Flattery detected… hydration levels rising 😎"
+      ]
+    },
+    {
+      "tag": "chat_emotion",
+      "patterns": [
+        "i'm sad",
+        "i'm happy",
+        "i feel lonely",
+        "i'm tired",
+        "i'm stressed"
+      ],
+      "responses": [
+        "I’m here for you 💙 Sometimes a sip of water helps clear your mind too.",
+        "It’s okay to feel that way. Take a deep breath and maybe a glass of water 💧",
+        "I'm glad you shared that. Want to talk about it more?"
+      ]
+    },
+    {
+      "tag": "hydration_intake",
+      "patterns": [
+        "how much water should i drink",
+        "daily water intake",
+        "how many glasses of water per day",
+        "recommended water amount",
+        "hydration requirement"
+      ],
+      "responses": [
+        "A general rule is about 2–3 liters (8–12 cups) per day, but it depends on your weight and activity level.",
+        "Most adults need around 35 ml of water per kilogram of body weight daily. For example, if you weigh 60 kg, that’s about 2.1 liters.",
+        "Try to drink enough water so your urine stays light yellow — that’s a good sign of proper hydration!"
+      ]
+    },
+    {
+      "tag": "hydration_timing",
+      "patterns": [
+        "when should i drink water",
+        "best time to drink water",
+        "should i drink water before or after meals"
+      ],
+      "responses": [
+        "It’s great to start your day with a glass of water when you wake up.",
+        "Drink before meals to help digestion and avoid drinking large amounts right after eating.",
+        "Sip water consistently throughout the day instead of all at once."
+      ]
+    },
+    {
+      "tag": "hydration_during_exercise",
+      "patterns": [
+        "how much water during exercise",
+        "drinking water while working out",
+        "hydration for athletes",
+        "how often should i drink water during workout"
+      ],
+      "responses": [
+        "During exercise, drink 150–250 ml every 20 minutes to stay hydrated.",
+        "After intense workouts, rehydrate with water and electrolytes if you sweat a lot.",
+        "Don’t wait until you feel thirsty — that means you’re already slightly dehydrated."
+      ]
+    },
+    {
+      "tag": "hydration_signs",
+      "patterns": [
+        "signs of dehydration",
+        "how do i know if i'm dehydrated",
+        "symptoms of dehydration",
+        "dehydration warning signs"
+      ],
+      "responses": [
+        "Common signs include dark yellow urine, dry mouth, dizziness, and fatigue.",
+        "If you’re feeling lightheaded, have dry lips, or notice less urination, drink water immediately.",
+        "Severe dehydration can cause headaches and confusion — always drink regularly."
+      ]
+    },
+    {
+      "tag": "hydration_facts",
+      "patterns": [
+        "tell me a hydration fact",
+        "hydration fun fact",
+        "something about water",
+        "interesting hydration info"
+      ],
+      "responses": [
+        "💧 Water makes up around 60% of your body weight!",
+        "Even mild dehydration (1–2% body loss) can reduce focus and mood.",
+        "Your brain is about 75% water — staying hydrated helps you think clearly."
+      ]
+    },
+    {
+      "tag": "hydration_myths",
+      "patterns": [
+        "hydration myths",
+        "is it true you need 8 glasses of water",
+        "can you drink too much water",
+        "is coffee dehydrating"
+      ],
+      "responses": [
+        "The '8 glasses a day' rule is a guideline — your needs depend on body size and activity.",
+        "Moderate coffee or tea doesn’t dehydrate you — they still contribute to your daily fluid intake.",
+        "Yes, drinking *too much* water too quickly can cause an imbalance, so pace yourself."
+      ]
+    },
+    {
+      "tag": "recommend_something",
+      "patterns": [
+        "can you recommend something to drink",
+        "recommend",
+        "recommendation",
+        "what should I drink",
+        "suggest a beverage for me",
+        "I need a hydration tip",
+        "what is good for hydration",
+        "give me a drink recommendation",
+        "any advice on what to drink",
+        "what should I drink to stay hydrated"
+      ],
+      "responses": [
+        "Hey! I’d suggest sipping some water right now — taking small, frequent sips works better than chugging a lot at once.",
+        "If you want something tasty, try water infused with lemon, cucumber, or berries — it makes staying hydrated more enjoyable!",
+        "Coconut water could be perfect for you, especially if you’ve been active or the weather is warm — it’s packed with electrolytes.",
+        "A calming herbal tea like chamomile or peppermint would be a nice way to hydrate while relaxing.",
+        "If you’re busy, don’t forget that high-water foods like watermelon or cucumber can sneak in some extra hydration for you.",
+        "Remember, your body’s needs are unique — listen to yourself and adjust how much you drink depending on your activity and environment.",
+        "Feeling thirsty? Go ahead and grab a glass of water — your body will thank you!"
+      ]
+    },
+    {
+      "tag": "hydration_weather",
+      "patterns": [
+        "should i drink more water in hot weather",
+        "hydration in summer",
+        "cold weather hydration",
+        "do i need water in winter"
+      ],
+      "responses": [
+        "In hot weather, drink more frequently and add electrolytes if you sweat heavily.",
+        "Cold weather can trick you — even when you don’t feel thirsty, you still lose fluids.",
+        "Whether hot or cold, staying hydrated supports body temperature regulation."
+      ]
+    },
+    {
+      "tag": "hydration_sleep",
+      "patterns": [
+        "should i drink water before bed",
+        "hydration and sleep",
+        "drink water at night"
+      ],
+      "responses": [
+        "A small glass before bed is fine, but avoid too much so you don’t wake up often to pee.",
+        "Staying hydrated through the day is better than drinking large amounts before sleep."
+      ]
+    },
+    {
+      "tag": "start_data_collection",
+      "patterns": [
+        "calculate my intake",
+        "my water intake",
+        "water intake for today",
+        "calculate my water intake",
+        "calculate my",
+        "start calculation",
+        "i want to start",
+        "get my daily water",
+        "start the test"
+      ],
+      "responses": ["Let's see what your body needs! "]
+    },
+    {
+      "tag": "ask_permission",
+      "patterns": ["start permission"],
+      "responses": [
+        "To calculate your ideal water intake, I need some info: age, gender, weight, activity, and environmental factors. Is that okay with you (Yes/No)?",
+        "I can tell you your recommended water intake! First, do you give me permission to ask for your age, gender, weight, activity level, and environment details (Yes/No)?"
+      ]
+    },
+    {
+      "tag": "unknown_uh",
+      "patterns": [
+        "uh",
+        "uh.",
+        "uh..",
+        "uh...",
+        "uh....",
+        "uh.....",
+        "uhh",
+        "uhhh",
+        "uhhhh",
+        "uhhhhh",
+        "Uh",
+        "Uhh",
+        "Uhhh",
+        "Uh...."
+      ],
+      "responses": [
+        "What do you mean by uh?",
+        "Hmm.. I’m not sure what you meant by that.",
+        "Could you clarify what you’re trying to say?"
+      ]
+    },
+    {
+      "tag": "unknown_umm",
+      "patterns": [
+        "um",
+        "umm",
+        "ummm",
+        "ummmm",
+        "ummmmm",
+        "Um",
+        "Umm",
+        "Ummm",
+        "Ummmm",
+        "um..",
+        "umm...",
+        "umm...."
+      ],
+      "responses": [
+        "What do you mean by umm?",
+        "You sound unsure — want to try saying that again?",
+        "Take your time! I’ll wait until you’re ready 😊"
+      ]
+    },
+    {
+      "tag": "unknown_hmm",
+      "patterns": [
+        "hm",
+        "hmm",
+        "hmmm",
+        "hmmmm",
+        "hmmmmm",
+        "Hm",
+        "Hmm",
+        "Hmmm",
+        "Hmmm..",
+        "Hmm....",
+        "hmm..",
+        "hmm...",
+        "hmm...."
+      ],
+      "responses": [
+        "Hmm.. we’re both thinking, huh?",
+        "Deep thoughts there 😄",
+        "I sense you’re pondering something..."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "funny",
+        "that’s funny",
+        "you’re funny",
+        "haha funny",
+        "so funny",
+        "lol that’s funny",
+        "really funny",
+        "very funny",
+        "funny haha",
+        "hahaha",
+        "hahahaha",
+        "haha",
+        "hahahaha"
+      ],
+      "responses": [
+        "Haha 😄 glad you think so!",
+        "Hehe 😆 I try my best!",
+        "Thanks! I’ll take that as a compliment!",
+        "😎 Humor and hydration — my specialties!",
+        "😂 You’ve got a good sense of humor!",
+        "Glad you found that funny! Should I keep going?",
+        "🤣 I was hoping you’d laugh at that!",
+        "Haha! Laughter is good — almost as good as staying hydrated!"
+      ]
+    },
+    {
+      "tag": "kupal",
+      "patterns": ["pogi ako"],
+      "responses": ["okay", "wala ako pake", "sa true lang", "omsim yah"]
+    }
+  ]
+}
