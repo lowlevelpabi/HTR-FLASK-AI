@@ -11,9 +11,6 @@ import time
 import os
 import re
 import joblib
-import requests
-import ollama
-import datetime
 
 ### ---------------------------- THIS IS THE DUPLICATED FLASK API FOR HEALTH TIP RECOMMENDER SYSTEM: HYDRATION VERSION WITH OLLAMA INTEGRATION ---------------------------- ###
 ####### =================================== FLASK API WITH CUSTOM PREDICTION LOGIC AND MODEL WITH OLLAMA CHAT INTEGRATION LLM ===================================== ###########
