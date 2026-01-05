@@ -463,15 +463,12 @@ def get_gemma_response(user_message, chat_history):
         "Maintain a clear, spaced-out structure."
     )
 
-    # Format history for the OpenAI-style client used by Open WebUI
     messages_payload = [{"role": "system", "content": system_prompt}] + chat_history + [{"role": "user", "content": user_message}]
 
     try:
-        # We use .chat.completions.create because Open WebUI is OpenAI-compatible
         response = ollama_client.chat.completions.create(
             model=OLLAMA_MODEL_NAME, 
             messages=messages_payload,
-            # THIS LINE TRIGGERS THE RESEARCH/WEB SEARCH
             extra_body={
                 "features": {
                     "web_search": True 
