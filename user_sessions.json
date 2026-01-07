@@ -993,5 +993,33 @@
             "is_direct_sun": "no"
         },
         "chat_history": []
+      "default_user": {
+        "last_intent": null,
+        "current_field": null,
+        "data": {
+            "age": "im 23",
+            "gender": "male",
+            "weight": "40",
+            "activity": "low",
+            "activity_level_int": 0,
+            "sub_activity": "Light Running",
+            "humidity_scale": "3",
+            "temperature": "29",
+            "complication": "none",
+            "is_indoors": "indoors",
+            "is_ground_wet": "no",
+            "is_windy_or_fanned": "yes",
+            "is_direct_sun": "no"
+        },
+        "chat_history": [
+            {
+                "role": "user",
+                "content": "my typical activities is mostly indoor: coding and lite exercise"
+            },
+            {
+                "role": "assistant",
+                "content": "Okay, here's a breakdown of your typical activities, designed to be structured and informative, using Markdown and the formatting requested:\n\n---\n\n**1. Core Activities \u2013 Focus on Indoor Engagement**\n\nYour routine predominantly involves indoor activities, suggesting a preference for a comfortable and potentially structured environment. Here's a look at what that likely entails:\n\n*   **Coding:**  This is a key component, indicating a focus on problem-solving and logical thinking \u2013 skills valuable in many fields.\n*   **Light Exercise:**  Regular physical activity is prioritized, likely contributing to both physical and mental well-being.\n\n**2. Potential Daily/Weekly Schedule (Example \u2013 Adapt to Your Needs)**\n\nLet\u2019s consider a sample schedule, but keep in mind this is just a guideline:\n\n*   **Morning (6:00 - 9:00):**\n    *   **Coding:**  Allocate time for coding sessions \u2013 this could be focused work, debugging, or working on a specific project. (e.g., 2-4 hours)\n    *   **Light Exercise:**  30-60 minute workout \u2013 potentially yoga, Pilates, or a brisk walk.\n*   **Lunch (12:00 - 1:00):**  A break for a nutritious lunch and relaxation.\n*   **Afternoon (1:00 - 5:00):**  Continue coding, potentially tackling a larger task or reviewing existing code.  Could also involve learning a new coding technique.\n*   **Evening (6:00 - 9:00):** More coding, potentially working on side projects or contributing to open-source efforts. Consider a short, calming activity like reading or meditation.\n*   **Weekends:**  Potentially more focused coding sessions, catching up on projects, or longer exercise activities.\n\n**3. Key Differences & Concepts - Understanding Your Focus**\n\nHere\u2019s a breakdown of potential aspects of your lifestyle, based on your described activities:\n\n*   **Digital Mindset:**  Your preference for indoor activities implies a comfortable environment and a strong connection to digital tools and systems.\n*   **Structured Environment:**  Coding heavily suggests a need for organization, planning, and a clear methodology.\n*   **Mental Focus:**  The emphasis on coding and light exercise implies a desire for a focused, potentially mentally stimulating routine.  It\u2019s a good sign that you value concentration and problem-solving.\n*   **Potential for Isolation:**  Mostly indoor activities could indicate a preference for solitary work, potentially leading to a degree of self-sufficiency.\n\n**4.  Potential Benefits & Considerations**\n\n*   **Cognitive Benefits:** Consistent coding and problem-solving activities can support cognitive development.\n*   **Physical Benefits:** Regular exercise is crucial for physical health and well-being.\n*   **Mental Wellbeing:**  The combination of focused work and movement can contribute to reduced stress and improved mood.\n*  **Potential for Burnout:** It's important to be mindful of avoiding burnout and maintaining a healthy work/life balance.\n\n---\n\n**Do you want me to elaborate on any of these points? For instance, do you want me to:**\n\n*   Suggest specific coding languages or project types?\n*   Expand on the types of light exercise?\n*   Discuss how to incorporate more variety into your routine?"
+            }
+        ]
     }
 }

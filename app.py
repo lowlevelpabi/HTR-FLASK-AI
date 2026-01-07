@@ -4,13 +4,14 @@ import numpy as np
 import tensorflow as tf
 from tf_keras import losses
 from tf_keras import metrics
-from openai import OpenAI
 import json
 import random
 import time
 import os
 import re
 import joblib
+import requests
+import ollama
 
 ### ---------------------------- THIS IS THE DUPLICATED FLASK API FOR HEALTH TIP RECOMMENDER SYSTEM: HYDRATION VERSION WITH OLLAMA INTEGRATION ---------------------------- ###
 ####### =================================== FLASK API WITH CUSTOM PREDICTION LOGIC AND MODEL WITH OLLAMA CHAT INTEGRATION LLM ===================================== ###########
@@ -20,22 +21,38 @@ This is the Configuration and Section for OLLAMA Client Initialization as well a
 DO NOT EDIT UNLESS YOU KNOW WHAT YOU ARE DOING.
 """
 OLLAMA_MODEL_NAME = "gemma3:1b"
-OLLAMA_BASE_URL = "http://localhost:3000/api" 
-OPEN_WEBUI_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImNmMmY3ZDYwLWQ3NmQtNDU2Zi1hYWNmLWI5YTFmNDFhOTgwYyIsImV4cCI6MTc2OTk2MDgyNywianRpIjoiNTY3NGU4NDAtOTg2Yy00ZGQ5LWJiZWMtZmNmODdkODIwNjAzIn0._3TdeIzo0milQXKrHNnEfVo4TZVxb0j9Tivds4XSzow"
-ollama_client = OpenAI(base_url=OLLAMA_BASE_URL, api_key=OPEN_WEBUI_API_KEY)
+OLLAMA_BASE_URL = "http://localhost:11434"
+ollama_client = None
+
 
 def initialize_ollama_client():
+    """Initializes the Ollama client and tests connection to the server."""
     global ollama_client
-    print("[STARTING] Initializing Open WebUI Client...")
+    print("[STARTING] Initializing Ollama Client...")
     try:
-        # Connect to Open WebUI instead of raw Ollama
-        ollama_client = OpenAI(
-            base_url=OLLAMA_BASE_URL, 
-            api_key=OPEN_WEBUI_API_KEY
+        ollama_client = ollama.Client(host=OLLAMA_BASE_URL)
+        # Attempt to list models to confirm connection and authentication
+        ollama_client.list()
+        print(f"[SUCCESS] Ollama Client connected successfully to {OLLAMA_BASE_URL}")
+
+    except requests.exceptions.ConnectionError:
+        print(f"[FAILED] Error: Could not connect to Ollama server at {OLLAMA_BASE_URL}.")
+        print(
+            "Please ensure the Ollama application is running and the model is pulled."
         )
-        print(f"[SUCCESS] Connected to Open WebUI at {OLLAMA_BASE_URL}")
+        # Fallback for the client if connection fails
+        ollama_client = lambda *args, **kwargs: {
+            "message": {
+                "content": "Sorry, the local Ollama server is offline. I can only perform hydration analysis."
+            }
+        }
     except Exception as e:
-        print(f"[ERROR] Failed to connect: {e}")
+        print(f"[FAILED-ERROR] Error during Ollama initialization: {e}")
+        ollama_client = lambda *args, **kwargs: {
+            "message": {
+                "content": "Sorry, a local AI error occurred. I can only perform hydration analysis."
+            }
+        }
 
 initialize_ollama_client()
 
@@ -450,8 +467,7 @@ STANDARD_GLASS_ML = 250  # Standard size of a cup/glass in ml (approx 8 oz)
 
 def get_gemma_response(user_message, chat_history):
     global ollama_client
-    
-    # In your app.py system prompt
+
     system_prompt = (
         "You are a professional assistant. Use Markdown for all responses: "
         "- Use '---' on a new line to separate numbering or distinct topics/sections or key differences or concepts."
@@ -460,24 +476,28 @@ def get_gemma_response(user_message, chat_history):
         "Maintain a clear, spaced-out structure."
     )
 
-    messages_payload = [{"role": "system", "content": system_prompt}] + chat_history + [{"role": "user", "content": user_message}]
+    system_prompt = {
+        "role": "system", 
+        "content": system_prompt
+    }
+
+    messages_payload = [system_prompt] + chat_history + [{"role": "user", "content": user_message}]
 
     try:
-        response = ollama_client.chat.completions.create(
+        response = ollama_client.chat(
             model=OLLAMA_MODEL_NAME, 
-            messages=messages_payload,
-            extra_body={
-                "features": {
-                    "web_search": True 
-                }
+            messages=messages_payload, 
+            options={
+                "temperature": 0.6,
             }
         )
 
-        return response.choices[0].message.content
+        raw_response = response["message"]["content"]
+        return raw_response
 
     except Exception as e:
-        print(f"Error generating Research response: {e}")
-        return "I'm sorry, I'm having trouble reaching my research tools right now."
+        print(f"Error generating Ollama response: {e}")
+        return "I'm sorry, I couldn't process that request right now."
 
 
 @app.route("/chat", methods=["POST"])
