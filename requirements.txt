@@ -1,0 +1,10 @@
+flask
+flask-cors
+pandas
+numpy
+tensorflow
+tf-keras
+scikit-learn
+joblib
+ollama
+requests
